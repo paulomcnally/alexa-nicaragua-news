@@ -1,15 +1,17 @@
 const request = require('request');
 const cheerio = require('cheerio');
 const { App } = require('jovo-framework');
-const es = require('./i18n/es-ES');
-const us = require('./i18n/en-US');
+const esEs = require('./i18n/es-ES');
+const esMx = require('./i18n/es-MX');
+const usUs = require('./i18n/en-US');
 
 const end = 'https://www.elnuevodiario.com.ni';
 
 // language resources
 const languageResources = {
-  'es-ES': es,
-  'en-US': us,
+  'es-ES': esEs,
+  'es-MX': esMx,
+  'en-US': usUs,
 };
 
 // application config
