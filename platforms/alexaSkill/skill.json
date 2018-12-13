@@ -2,23 +2,7 @@
 	"manifest": {
 		"publishingInformation": {
 			"locales": {
-				"en-US": {
-					"summary": "Nicaragua news",
-					"examplePhrases": [
-						"Alexa open nicaragua news"
-					],
-					"name": "alexa-nicaragua-news",
-					"description": "Nicaragua news"
-				},
 				"es-ES": {
-					"summary": "Noticias de Nicaragua",
-					"examplePhrases": [
-						"Alexa abrir nicaragua noticias"
-					],
-					"name": "alexa-nicaragua-news",
-					"description": "Noticias de Nicaragua"
-				},
-				"es-MX": {
 					"summary": "Noticias de Nicaragua",
 					"examplePhrases": [
 						"Alexa abrir nicaragua noticias"
