@@ -1,0 +1,13 @@
+{
+    "invocation":"nicaragua news",
+    "intents":[
+        {
+            "name":"LaunchIntent",
+            "phrases":[
+                "read",
+                "news",
+                "headlines"
+            ]
+        }
+    ]
+}

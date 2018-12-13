@@ -1,0 +1,7 @@
+{
+  "translation": {
+    "SOURCE": "Dime la fuente de las noticia",
+    "RESPONSE": "Los titulares de {{source}} son",
+    "NUMBER": "Número"
+  }
+}

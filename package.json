@@ -1,0 +1,30 @@
+{
+  "name": "alexa-nicaragua-news",
+  "version": "1.0.0",
+  "description": "Nicaragua News Alexa Skills",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "i18next": "^12.1.0",
+    "jovo-framework": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulomcnally/alexa-nicaragua-news.git"
+  },
+  "author": "Paulo McNally",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/paulomcnally/alexa-nicaragua-news/issues"
+  },
+  "homepage": "https://github.com/paulomcnally/alexa-nicaragua-news#readme"
+}

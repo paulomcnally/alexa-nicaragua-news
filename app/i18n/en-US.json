@@ -1,0 +1,7 @@
+{
+  "translation": {
+    "SOURCE": "Tell me the source of news",
+    "RESPONSE": "The headlines of {{source}} are",
+    "NUMBER": "Number"
+  }
+}
