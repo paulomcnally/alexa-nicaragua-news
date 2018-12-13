@@ -1,1 +1,1 @@
-web: jovo run
+web: node index.js --webhook

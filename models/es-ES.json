@@ -1,13 +1,34 @@
 {
-  "invocation":"nicaragua noticias",
-  "intents":[
-      {
-          "name":"LaunchIntent",
-          "phrases":[
-              "leer",
-              "noticias",
-              "titulares"
-          ]
-      }
-  ]
+	"invocation": "nicaragua noticias",
+	"inputTypes": [],
+	"alexa": {
+		"interactionModel": {
+			"languageModel": {
+				"intents": [
+					{
+						"name": "AMAZON.CancelIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.HelpIntent",
+						"samples": []
+					},
+					{
+						"name": "AMAZON.StopIntent",
+						"samples": []
+					}
+				]
+			}
+		}
+	},
+	"intents": [
+		{
+			"name": "LaunchIntent",
+			"phrases": [
+				"leer",
+				"noticias",
+				"titulares"
+			]
+		}
+	]
 }

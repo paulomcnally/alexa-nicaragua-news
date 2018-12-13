@@ -1,0 +1,30 @@
+{
+	"interactionModel": {
+		"languageModel": {
+			"invocationName": "nicaragua news",
+			"types": [],
+			"intents": [
+				{
+					"name": "LaunchIntent",
+					"samples": [
+						"read",
+						"news",
+						"headlines"
+					]
+				},
+				{
+					"name": "AMAZON.CancelIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.HelpIntent",
+					"samples": []
+				},
+				{
+					"name": "AMAZON.StopIntent",
+					"samples": []
+				}
+			]
+		}
+	}
+}
