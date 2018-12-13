@@ -1,13 +1,13 @@
 /* eslint-disable no-console */
-const { Webhook } = require('jovo-framework');
+const { WebhookVerified } = require('jovo-framework');
 const { app } = require('./app/app.js');
 
 if (app.isWebhook()) {
   const port = process.env.PORT || 3000;
-  Webhook.listen(port, () => {
+  WebhookVerified.listen(port, () => {
     console.log(`Example server listening on port ${port}!`);
   });
-  Webhook.post('/webhook', (req, res) => {
+  WebhookVerified.post('/webhook', (req, res) => {
     app.handleWebhook(req, res);
   });
 }

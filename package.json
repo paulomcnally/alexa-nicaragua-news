@@ -4,6 +4,7 @@
   "description": "Nicaragua News Alexa Skills",
   "main": "index.js",
   "dependencies": {
+    "alexa-verifier-middleware": "^1.0.1",
     "cheerio": "^1.0.0-rc.2",
     "i18next": "^12.1.0",
     "jovo-framework": "^1.0.0",
